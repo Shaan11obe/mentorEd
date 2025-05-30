@@ -18,13 +18,13 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all ">
             <p className="text-gray-300 mb-6 ">
-              Change to 
+              Change to content
             </p>
 
-            {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className=" rounded-xl p-6 hover:-translate-y-1 transition-all ">
                 <h3 className="text-xl font-bold mb-4">
-                  Front-end Development
+                  Active Teaching
                 </h3>
                 <div className=" flex flex-wrap gap-2 ">
                   {frontendSkills.map((tech, key) => (
@@ -41,7 +41,7 @@ export const About = () => {
               <div className=" rounded-xl p-6 hover:-translate-y-1 transition-all ">
                 <h3 className="text-xl font-bold mb-4">
                   {" "}
-                  Back-end Development{" "}
+                  Passive teaching
                 </h3>
                 <div className=" flex flex-wrap gap-2 ">
                   {backendSkills.map((tech, key) => (
@@ -55,7 +55,7 @@ export const About = () => {
                   ))}
                 </div>
               </div>
-                  </div> */}
+                  </div>
           </div> 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
